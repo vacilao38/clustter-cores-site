@@ -1,0 +1,38 @@
+{
+  "brand": "Clustter cores",
+  "publishedProducts": [
+    {
+      "id": "folk",
+      "version": "1.0.0",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    },
+    {
+      "id": "lake",
+      "version": "1.2.0",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    },
+    {
+      "id": "chain",
+      "version": "1.0.0",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    },
+    {
+      "id": "noon",
+      "version": "0.1.0",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    }
+  ],
+  "policy": "Somente produtos explicitamente selecionados pelo proprietário entram no catálogo público. Código dos aplicativos permanece privado."
+}

@@ -1,0 +1,26 @@
+# Verificação da Clustter cores — 23/10/2026
+
+Publicação confirmada no GitHub Pages: https://vacilao38.github.io/clustter-cores-downloads/
+Commit de produção: 0eaaee27d97e552b84c5f2eb56a80decf7ecd226. Status da API Pages: built. Página pública aberta no navegador com título e catálogo corretos.
+
+Código Folk: vacilao38/folk-transcriber, visibility PRIVATE confirmada. Canal público: vacilao38/clustter-cores-downloads, somente documentação pública, vitrine, catálogo selecionado e releases dos instaladores.
+
+Uploads: Folk com 4 instaladores e SHA256SUMS; Lake com 3 instaladores e SHA256SUMS. Todos com state uploaded e tamanho conferido. Os dois links públicos SHA256SUMS retornaram HTTP 200.
+
+No navegador: filtro Windows retorna 1 produto; Android retorna 2. Apresentações Folk/Lake exibem recursos, plataformas corretas e links específicos por arquitetura. Pausa de animações altera aria-pressed. Layout testado em 390×844, sem rolagem horizontal; captura de interface mantém proporção. Movimento reduzido é respeitado por CSS. JavaScript passou em node --check.
+
+Apresentações animadas são composições CSS originais, não vídeos reais de uso. Referência de direção: https://www.adobe.com/products/aftereffects.html . Não foram usados vídeos, logotipos ou materiais proprietários da Adobe.
+
+Captura pública: clustter-cores-public.png. Hospedagem efetiva: GitHub Pages. O fluxo Sites não foi usado para publicar por bloqueio de auto-review ao método de transmissão da credencial; nenhuma credencial Sites foi salva em arquivos.
+
+## Chain 1.0 — publicação de 23/10/2026
+
+Chain incluído no catálogo público, preservando Folk e Lake. Commit: 2e080713a01da59a75f96e307b38c214c5a09f99; GitHub Pages confirmou status built para esse commit.
+
+Release público: https://github.com/vacilao38/clustter-cores-downloads/releases/tag/chain-v1.0.0 . Quatro instaladores (Windows x64, Android ARM64, ARM32 e x64) e SHA256SUMS.txt. Todos os cinco digests SHA-256 retornados pelo GitHub foram comparados aos arquivos locais antes de tornar o release público.
+
+No navegador público, catálogo com três ferramentas e apresentação Chain com captura de interface, recursos, requisitos, quatro downloads por arquitetura e link SHA-256. Os limites do P2P entre redes distintas e a validação Android físico pendente estão explicitados. Captura: chain-public.png. O código-fonte do Chain não foi publicado.
+
+## Publicação Noon · 23/10/2026
+
+Noon 0.1.0 incluído na vitrine junto de Folk, Lake e Chain. GitHub Pages confirmou built no commit cc5174d8dfbb150cc9bac2a0ef7546154538c90e. Página: https://vacilao38.github.io/clustter-cores-downloads/#noon . Release: https://github.com/vacilao38/clustter-cores-downloads/releases/tag/noon-v0.1.0 . Quatro instaladores e SHA256SUMS.txt públicos, com tamanhos e SHA-256 conferidos, cinco links HTTP 200. Captura real em ../outputs/clustter-noon-publication/noon-publicado.jpg. Mobile verificado a 390 px lógicos, sem rolagem horizontal. Código-fonte Noon não foi publicado.
