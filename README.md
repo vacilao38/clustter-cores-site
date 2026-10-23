@@ -1,6 +1,6 @@
 # Clustter cores
 
-Vitrine pública de ferramentas selecionadas. Catálogo: Folk 1.0.0, Lake 1.2.0 e Chain 1.0.0. Código dos aplicativos privado; somente instaladores, hashes e esta apresentação são destinados ao público.
+Vitrine pública de ferramentas selecionadas. Catálogo: Folk 1.0.0, Lake 1.2.0 e Chain 1.0.0. Código de Chain e Noon público por autorização de 23/10/2026; Folk e Lake mantêm repositórios privados. Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
 
 Site estático em `dist/`, sem dependências de build. Layout responsivo, apresentações CSS originais de voz e animação, filtros por plataforma e apresentações de produto com downloads. As animações são demonstrações visuais, não vídeos capturados dos aplicativos. Capturas de interface reais acompanham as descrições.
 
