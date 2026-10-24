@@ -1,0 +1,239 @@
+{
+  "schema": 1,
+  "brand": "Clustter cores",
+  "products": {
+    "folk": {
+      "name": "Folk",
+      "version": "1.0.1",
+      "category": "TRANSCRIÇÃO LOCAL",
+      "description": "Da voz para o que importa. Transcreva áudio e vídeo no próprio aparelho, com modelos incluídos e sem enviar o conteúdo para a nuvem.",
+      "image": "assets/folk-interface.png",
+      "features": [
+        "Importa MP4, MP3, WAV, M4A, FLAC e outros formatos compatíveis.",
+        "Processa conteúdos longos em blocos, salvando o progresso para retomar.",
+        "Revisão por trechos e exportação TXT, SRT, VTT e JSON."
+      ],
+      "requirements": "Windows 10/11 x64 com AVX2. Android 7 ou superior. Precisa de espaço para a cópia local da mídia e dos modelos. Mantenha o aplicativo aberto durante o processamento.",
+      "note": "Modelo de voz incluído. Transcrição real validada no Windows. APKs compilados e conferidos; uso em aparelho Android físico ainda precisa de validação. A precisão depende do áudio: revise o texto. Inclui o Update: novas versões são avisadas dentro do app e baixadas pelo site. Instalações antigas precisam desta primeira atualização manual.",
+      "tag": "folk-v1.0.1",
+      "prefix": "Folk-1.0.1",
+      "windows": true,
+      "featured": true,
+      "headline": "Voz em texto.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "downloads": [
+        [
+          "Windows x64 · Instalador .exe",
+          "Windows-x64-Setup.exe",
+          "147,2 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "89,7 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "99,3 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "92,5 MiB"
+        ]
+      ],
+      "releaseNotes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+    },
+    "lake": {
+      "name": "Lake",
+      "version": "1.2.1",
+      "category": "ANIMAÇÃO VETORIAL",
+      "description": "Um estúdio para compor e animar no Windows e no Android. Dê vida a formas, textos e imagens com camadas, keyframes e curvas de animação.",
+      "image": "assets/lake-interface.png",
+      "features": [
+        "Formas vetoriais, texto, máscaras, grupos e importação de imagens e SVG.",
+        "Timeline com keyframes, curvas Bézier e animação ao longo de caminhos.",
+        "Projetos .lake editáveis e exportação PNG, SVG estático e SVG animado."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet com Android 7 ou superior. Composições de até 30 segundos e 80 camadas. No Windows, extraia o ZIP completo e abra lake.exe.",
+      "note": "Não exporta MP4 ou GIF e não importa áudio ou vídeo. Compilação e testes automatizados aprovados no Windows. Diálogos nativos ainda sem validação manual completa; uso em hardware Android também precisa de validação. Exporte seus projetos .lake para backup. Inclui o Update: novas versões são avisadas dentro do app e baixadas pelo site. Instalações antigas precisam desta primeira atualização manual.",
+      "tag": "lake-v1.2.1",
+      "prefix": "Lake-1.2.1",
+      "windows": true,
+      "featured": true,
+      "headline": "Ideias em movimento.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "downloads": [
+        [
+          "Windows x64 · Instalador .exe",
+          "Windows-x64-Setup.exe",
+          "10,5 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "18,4 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "15,9 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "19,8 MiB"
+        ]
+      ],
+      "releaseNotes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+    },
+    "chain": {
+      "name": "Chain",
+      "version": "1.1.1",
+      "category": "COLEÇÕES DE LINKS",
+      "description": "Tudo o que inspira, em um lugar para conectar. Organize links em coleções com capas e leve suas ideias de um aparelho ao outro por conexão direta.",
+      "image": "assets/chain-interface.png",
+      "features": [
+        "Coleções com capas pessoais ou abstratas, categorias, notas, etiquetas, favoritos e busca.",
+        "Importação e exportação .chain com as capas incluídas para guardar backups.",
+        "Pareamento único, aparelhos lembrados e ações Enviar alterações / Puxar mais recentes por P2P criptografado.",
+        "Copiar link com um toque; WebRTC prioriza P2P direto entre redes e oferece fallback TURN configurável por aparelho."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador .exe. Mantenha o Chain aberto nos dois aparelhos. Na mesma rede, TCP local funciona sem internet; entre redes, configure a credencial TURN em Conexões.",
+      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas.",
+      "tag": "chain-v1.1.1",
+      "prefix": "Chain-1.1.1",
+      "windows": true,
+      "downloads": [
+        [
+          "Windows x64 · Instalador .exe",
+          "Windows-x64-Setup.exe",
+          "16,8 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "30,5 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "22,8 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "35,5 MiB"
+        ]
+      ],
+      "featured": true,
+      "headline": "Conecte suas referências.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "releaseNotes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+    },
+    "noon": {
+      "name": "Noon",
+      "version": "0.1.1",
+      "category": "SÍNTESE & COMPOSIÇÃO",
+      "description": "Dê forma ao que você ouve. Crie timbres, efeitos e pequenas trilhas em camadas, com uma interface visual que também é um script editável.",
+      "image": "assets/noon-interface.png",
+      "features": [
+        "Até 8 camadas com instrumentos por síntese, filtro, distorção, eco e reverb.",
+        "Guias de acordes e seções para compor; exportação WAV estéreo e projetos .noon editáveis.",
+        "Visual e Noon Script sincronizados. Copie para sua LLM, cole o resultado e aplique o script validado."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet com Android 7 ou superior. No Windows, use o instalador .exe. O runtime Visual C++ acompanha o pacote.",
+      "note": "Primeira versão: até 16 compassos e 60 segundos de arranjo, mais a cauda dos efeitos. O teclado toca uma nota por vez. Sem samples importados, MIDI, VST, motor em tempo real ou reconhecimento de músicas. A LLM é usada externamente, por copiar/colar. Player real validado no Windows; uso em aparelho Android ainda precisa de validação. Exporte .noon para backup. Inclui o Update: novas versões são avisadas dentro do app e baixadas pelo site. Instalações antigas precisam desta primeira atualização manual.",
+      "tag": "noon-v0.1.1",
+      "prefix": "Noon-0.1.1",
+      "windows": true,
+      "downloads": [
+        [
+          "Windows x64 · Instalador .exe",
+          "Windows-x64-Setup.exe",
+          "10,4 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "17,9 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "15,4 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "19,3 MiB"
+        ]
+      ],
+      "featured": true,
+      "headline": "Dê forma ao som.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "releaseNotes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+    },
+    "pile": {
+      "name": "Pile",
+      "version": "0.1.1",
+      "category": "GERENCIADOR DE ARQUIVOS",
+      "description": "Seus arquivos à vista. Navegue por pastas, encontre etiquetas como Cute e alterne entre lista e galeria. Imagens e vídeos com prévias locais, em uma interface mais clara.",
+      "image": "assets/pile-interface-0.1.1.png",
+      "features": [
+        "Galeria e lista com seleção compartilhada. Busca por nomes, caminhos e etiquetas; filtros por tipo e ordenação.",
+        "Imagens com zoom, miniaturas locais e reprodução de vídeos conforme os codecs do sistema. Interface compacta e ícones leves.",
+        "Crie pastas, mova e renomeie arquivos com prévia e desfazer. Coleções com etiquetas, cores e capas; organização por categorias e revisão de duplicados sem apagar automaticamente.",
+        "Figurinhas estáticas Android: preparar e revisar 3–30 imagens e abrir a confirmação oficial no WhatsApp/Business. Validação em aparelho real ainda pendente; Windows apenas revisa imagens.",
+        "IA opcional e secundária, com autorização por lote. Avisos de atualização no aplicativo e instalador Windows por usuário."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador e abra pelo menu Iniciar; feche a versão anterior antes de atualizar. Quem usava ZIP faz esta primeira instalação manual. No Android, instale o APK por cima para manter os dados e escolha uma subpasta local pelo seletor do sistema.",
+      "note": "32 testes e duas integrações Windows aprovados com arquivos sintéticos. Android físico, permissões SAF e adição real das figurinhas ao WhatsApp/Business ainda precisam de validação. Pacotes são estáticos, sem recorte automático do fundo; animações e vídeos não entram neste fluxo. Codecs dependem do sistema. Ainda não há copiar, lixeira ou gestão completa de pastas. Etiquetas ficam no índice local e não acompanham movimentos externos; mantenha backups. A consulta Update usa metadados públicos e não envia arquivos. IA exige chave própria e autorização por lote; pixels ainda podem conter dados pessoais. Instalador Windows sem certificado de editor e APKs com assinatura de desenvolvimento preservada.",
+      "tag": "pile-v0.1.1",
+      "prefix": "Pile-0.1.1",
+      "windows": true,
+      "downloads": [
+        [
+          "Windows x64 · Instalador",
+          "Windows-x64-Setup.exe",
+          "11,7 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "20,6 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "18,4 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "22,0 MiB"
+        ]
+      ],
+      "featured": true,
+      "headline": "Encontre. Veja. Organize.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "releaseNotes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
+    }
+  }
+}

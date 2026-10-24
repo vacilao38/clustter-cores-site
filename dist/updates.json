@@ -1,0 +1,66 @@
+{
+  "protocol": "clustter.update",
+  "schema": 1,
+  "apps": {
+    "folk": {
+      "windows": {
+        "version": "1.0.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#folk",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      },
+      "android": {
+        "version": "1.0.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#folk",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      }
+    },
+    "lake": {
+      "windows": {
+        "version": "1.2.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#lake",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      },
+      "android": {
+        "version": "1.2.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#lake",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      }
+    },
+    "chain": {
+      "windows": {
+        "version": "1.1.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      },
+      "android": {
+        "version": "1.1.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      }
+    },
+    "noon": {
+      "windows": {
+        "version": "0.1.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#noon",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      },
+      "android": {
+        "version": "0.1.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#noon",
+        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      }
+    },
+    "pile": {
+      "windows": {
+        "version": "0.1.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#pile",
+        "notes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
+      },
+      "android": {
+        "version": "0.1.1",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#pile",
+        "notes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
+      }
+    }
+  }
+}

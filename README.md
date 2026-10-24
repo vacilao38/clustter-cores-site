@@ -1,6 +1,6 @@
 # Clustter cores
 
-Vitrine pública de ferramentas selecionadas. Catálogo: Folk 1.0.0, Lake 1.2.0, Chain 1.0.0, Noon 0.1.0 e Pile 0.1.0. Código de Chain e Noon público por autorização de 23/10/2026; Folk, Lake e Pile mantêm repositórios privados; Pile por pedido explícito de 24/10/2026 (risco de LGPD). Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
+Vitrine pública de ferramentas selecionadas. Catálogo atual: Folk 1.0.1, Lake 1.2.1, Chain 1.1.1, Noon 0.1.1 e Pile 0.1.1. Noon mantém código público; Chain voltou a privado por pedido de 24/10/2026. Folk, Lake e Pile mantêm repositórios privados; Pile por pedido explícito de 24/10/2026 (risco de LGPD). Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
 
 Site estático em `dist/`, sem dependências de build. Layout responsivo, apresentações CSS originais de voz e animação, filtros por plataforma e apresentações de produto com downloads. As animações são demonstrações visuais, não vídeos capturados dos aplicativos. Capturas de interface reais acompanham as descrições.
 
@@ -20,3 +20,19 @@ Noon 0.1.0 incluído na vitrine junto de Folk, Lake e Chain. GitHub Pages confir
 
 Pile 0.1.0 autorizado para a vitrine. Código privado por decisão do usuário (risco de LGPD); Windows ZIP e APKs por arquitetura distribuídos separadamente. Página: https://vacilao38.github.io/clustter-cores-downloads/#pile . Release: https://github.com/vacilao38/clustter-cores-downloads/releases/tag/pile-v0.1.0 . Captura da interface usa somente arquivos sintéticos. Android físico e chamadas reais de IA permanecem pendentes; a página informa os limites. Publicação não inclui código-fonte do Pile nem dados de uso. Sincronização global dispensada pelo usuário nesta sessão.
 
+
+## Catálogo e Update · 24/10/2026
+
+`catalog.json` é a fonte dos produtos selecionados, versões completas, destaques e downloads. Execute `node tool/build-catalog.mjs` para validar e gerar `dist/catalog.json` e `dist/updates.json`. Não anunciar uma versão antes de publicar e verificar seus pacotes, com autorização aplicável. O catálogo anuncia apenas as versões efetivamente publicadas e verificadas.
+
+O topo é montado por `dist/catalog-app.js`: até seis ferramentas em destaque, com identificação visual e versão; os demais produtos permanecem na coleção. Novos produtos autorizados recebem card genérico a partir do catálogo. Cada apresentação mostra a versão completa. `dist/app.js` permanece apenas para compatibilidade de páginas antigas em cache. O feed público segue `clustter.update` schema 1; documentação em `../clustter-main/docs/UPDATE.md`.
+
+Após a preparação e um bloqueio inicial de revisão automática, o usuário autorizou explicitamente terminar e publicar nos repositórios e na Clustter. Os cinco releases com Update e instalador Windows foram publicados; versões antigas permanecem no histórico de releases. Vinte e cinco assets públicos (quatro pacotes e SHA256SUMS por app) tiveram tamanho, SHA-256 e URL conferidos.
+
+## Publicação Pile 0.1.1 — 24/10/2026
+
+Nova autorização explícita do usuário: “suba no clustter e no repositório”. A evolução visual está publicada em https://vacilao38.github.io/clustter-cores-downloads/#pile ; release https://github.com/vacilao38/clustter-cores-downloads/releases/tag/pile-v0.1.1 . Windows Setup (11,7 MiB), APKs ARM64 (20,6 MiB), ARM32 (18,4 MiB), x64 (22,0 MiB) e SHA256SUMS.txt públicos, tamanhos/digests SHA-256 locais e remotos iguais e cinco links HTTP 200. Certificado Android igual ao 0.1.0. Instalador testado em pasta/registro isolados, preservando um arquivo sintético extra na desinstalação. Não foi instalada uma cópia de produção neste usuário.
+
+Pages confirmou built em `99cff4766a63996c11c35eddd434b4852c09571a`. Feed anuncia Pile 0.1.1 em Windows/Android. Página real conferida no navegador: versão, galeria sintética atual, instalador/APKs e limites da integração WhatsApp. Prova em `outputs/pile-evolution-2026-10-24/pile-0.1.1-publicado.png`. O código do Pile permanece privado; não foi executado sync global. Android físico/SAF e adição real ao WhatsApp/Business continuam pendentes e divulgados publicamente.
+
+Houve publicação concorrente de versões de outros apps por outra execução. Seus pacotes públicos foram preservados; esta execução preparou e enviou somente pacotes do Pile. O catálogo público e a fonte foram conferidos iguais ao final. Uma release de rascunho homônima de Pile criada por outra execução não foi publicada nem excluída por esta etapa; a release pública e os cinco links corretos foram verificados.
