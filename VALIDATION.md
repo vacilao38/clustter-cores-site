@@ -24,3 +24,9 @@ No navegador público, catálogo com três ferramentas e apresentação Chain co
 ## Publicação Noon · 23/10/2026
 
 Noon 0.1.0 incluído na vitrine junto de Folk, Lake e Chain. GitHub Pages confirmou built no commit cc5174d8dfbb150cc9bac2a0ef7546154538c90e. Página: https://vacilao38.github.io/clustter-cores-downloads/#noon . Release: https://github.com/vacilao38/clustter-cores-downloads/releases/tag/noon-v0.1.0 . Quatro instaladores e SHA256SUMS.txt públicos, com tamanhos e SHA-256 conferidos, cinco links HTTP 200. Captura real em ../outputs/clustter-noon-publication/noon-publicado.jpg. Mobile verificado a 390 px lógicos, sem rolagem horizontal. Código-fonte Noon não foi publicado.
+
+## Pile 0.1.0 — 24/10/2026
+
+Publicação autorizada explicitamente. GitHub Pages confirmou built no commit 9a8120898b95f6d309aff6d5c9c6b2d2669395b4. Página: https://vacilao38.github.io/clustter-cores-downloads/#pile . Release pública: https://github.com/vacilao38/clustter-cores-downloads/releases/tag/pile-v0.1.0 . Quatro pacotes (Windows x64 ZIP e APKs ARM64/ARM32/x64) e SHA256SUMS.txt; tamanhos e SHA-256 locais/remotos conferidos e cinco URLs HTTP 200. Código Pile privado confirmado pela API (isPrivate=true), exceção LGPD registrada na central.
+
+node --check aprovado para app.js e serve.mjs. Catálogo contém cinco apps, preservando os quatro produtos anteriores. Modal e filtro Android conferidos no navegador. Layout mobile: viewport 390 px e scrollWidth 390; modal clientWidth/scrollWidth 352/352, sem overflow horizontal. Apresentação desktop a 1280 px, imagem real carregada. Página publicada e botão Baixar Pile conferidos novamente após deploy. Captura real de comprovação: ../outputs/clustter-pile-publication/pile-publicado.jpg. Captura do aplicativo usa somente arquivos sintéticos. Limites Android físico/IA real apresentados publicamente.
