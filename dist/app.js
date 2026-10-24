@@ -111,6 +111,46 @@ const products={
         "18,9 MiB"
       ]
     ]
+  },
+  "pile": {
+    "name": "Pile",
+    "version": "0.1.0",
+    "category": "ARQUIVOS & COLEÇÕES",
+    "description": "Cada coisa no seu lugar. Organize uma pasta em categorias, crie coleções com capas e encontre o que vale guardar. A organização funciona no próprio aparelho.",
+    "image": "assets/pile-interface.png",
+    "features": [
+      "Pastas por categoria, nomes customizáveis, prévia e opção de organizar em um clique. Sem sobrescrita e com desfazer da última operação.",
+      "Coleções, etiquetas, cores e capas locais. Metadados EXIF podem criar grupos por ano e coordenadas aproximadas, sem consultar a internet.",
+      "Regras por tipo e dias desde a primeira detecção, executadas sob demanda. Duplicados por conteúdo ficam separados das imagens visualmente parecidas.",
+      "IA opcional para sugerir nomes e etiquetas em um lote de imagens escolhido por você, com autorização a cada envio."
+    ],
+    "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, extraia o ZIP completo e abra pile.exe; o runtime C++ acompanha o pacote. No Android, escolha uma subpasta local pelo seletor do sistema; a raiz de Downloads e Android/data podem ser bloqueadas.",
+    "note": "Versão inicial: Android físico e chamadas reais de IA ainda precisam de validação. Regras não rodam em segundo plano. Cópias idênticas vão para revisão, sem exclusão automática; mover cópias não libera espaço. Etiquetas ficam no índice local e não acompanham movimentos externos. A IA usa OpenRouter e provedor externo: miniaturas sem EXIF, mas os pixels ainda podem conter dados pessoais. Exige chave própria e consentimento por lote; gratuidade e cotas variam. Não envie conteúdo sensível. Mantenha backups dos seus arquivos.",
+    "tag": "pile-v0.1.0",
+    "prefix": "Pile-0.1.0",
+    "windows": true,
+    "downloads": [
+      [
+        "Windows x64 · ZIP",
+        "Windows-x64.zip",
+        "13,4 MiB"
+      ],
+      [
+        "Android ARM64 · recomendado",
+        "arm64-v8a.apk",
+        "18,2 MiB"
+      ],
+      [
+        "Android ARM32",
+        "armeabi-v7a.apk",
+        "16,0 MiB"
+      ],
+      [
+        "Android x64",
+        "x86_64.apk",
+        "19,6 MiB"
+      ]
+    ]
   }
 };
 const dialog=document.querySelector('dialog');let lastFocus;

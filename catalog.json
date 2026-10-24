@@ -32,7 +32,15 @@
         "windows",
         "android"
       ]
+    },
+    {
+      "id": "pile",
+      "version": "0.1.0",
+      "platforms": [
+        "windows",
+        "android"
+      ]
     }
   ],
-  "policy": "Somente produtos explicitamente selecionados pelo proprietário entram no catálogo público. Código de novos projetos Clustter é público por padrão, com exceções documentadas na central. Chain e Noon públicos; Folk e Lake privados."
+  "policy": "Somente produtos explicitamente selecionados pelo proprietário entram no catálogo público. Visibilidade do código registrada na central: Folk, Lake e Pile privados; Chain e Noon públicos."
 }
