@@ -1,6 +1,6 @@
 # Clustter cores
 
-Vitrine pública de ferramentas selecionadas. Catálogo atual: Folk 1.0.1, Lake 1.2.1, Chain 1.2.1, Noon 0.1.1, Pile 0.1.1 e Chain Companion 1.0.0. Noon mantém código público; Chain voltou a privado por pedido de 24/10/2026. Folk, Lake e Pile mantêm repositórios privados; Pile por pedido explícito de 24/10/2026 (risco de LGPD). Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
+Vitrine pública de ferramentas selecionadas. Catálogo atual: Folk 1.0.1, Lake 1.2.1, Chain 1.3.1, Noon 0.1.1, Pile 0.3.0 e Chain Companion 1.0.0. Noon mantém código público; Chain voltou a privado por pedido de 24/10/2026. Folk, Lake e Pile mantêm repositórios privados; Pile por pedido explícito de 24/10/2026 (risco de LGPD). Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
 
 Site estático em `dist/`, sem dependências de build. Layout responsivo, apresentações CSS originais de voz e animação, filtros por plataforma e apresentações de produto com downloads. As animações são demonstrações visuais, não vídeos capturados dos aplicativos. Capturas de interface reais acompanham as descrições.
 
@@ -44,3 +44,5 @@ Catálogo atual também inclui Chain Companion 1.0.0 para Chrome/Edge Windows; C
 Chain 1.2.1 publicado para corrigir o tooltip do X do Update; Companion e demais versões preservados.
 
 Chain 1.3.0: apelidos de aparelhos, comparação/resolução de conflitos, transições com redução de movimento e sons opcionais. Pacotes Windows/Android e feed atualizados; Companion 1.0.0 preservado.
+
+Atualizações de 25/10/2026: Pile 0.3.0 e Chain 1.3.1, com pacotes verificados e fonte privada. Outros produtos preservados. Android físico continua pendente conforme as apresentações.

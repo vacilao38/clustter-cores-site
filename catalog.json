@@ -96,10 +96,10 @@
     },
     "chain": {
       "name": "Chain",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "category": "COLEÇÕES DE LINKS",
       "description": "Tudo o que inspira, em um lugar para conectar. Organize links em coleções com capas e leve suas ideias de um aparelho ao outro por conexão direta.",
-      "image": "assets/chain-interface.png",
+      "image": "assets/chain-interface-1.3.1.png",
       "features": [
         "Coleções com capas pessoais ou abstratas, categorias, notas, etiquetas, favoritos e busca.",
         "Importação e exportação .chain com as capas incluídas para guardar backups.",
@@ -109,12 +109,12 @@
         "Captura rápida Android pelo Compartilhar; Chain Companion no Chrome/Edge Windows abre a mesma revisão de coleção, título, trilha e etiquetas.",
         "Apelidos locais para aparelhos de confiança, preservados ao reconectar.",
         "Revisão de conflitos: compare versões, mantenha ambas, escolha uma ou combine links com decisões explícitas.",
-        "Transições suaves com redução de movimento e sons originais opcionais, desligados por padrão e com volume próprio."
+        "Indicador de navegação deslizante, menus em fade integral e rolagem com desaceleração curta, sem barra persistente. Redução do sistema e preferência local respeitadas."
       ],
       "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador .exe. Mantenha o Chain aberto nos dois aparelhos. Na mesma rede, TCP local funciona sem internet; entre redes, configure a credencial TURN em Conexões.",
-      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain. Versão 1.3: após resolver conflitos, use Enviar alterações. Atualize ambos os aparelhos; combinar reúne os links exclusivos e pode recuperar exclusões feitas apenas de um lado. Histórico de 64 revisões. Análise, 35 testes Flutter e três integrações Windows aprovados. Sons, modo silencioso/Não Perturbe e experiência em Android físico ainda precisam de validação.",
-      "tag": "chain-v1.3.0",
-      "prefix": "Chain-1.3.0",
+      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain. Versão 1.3: após resolver conflitos, use Enviar alterações. Atualize ambos os aparelhos; combinar reúne os links exclusivos e pode recuperar exclusões feitas apenas de um lado. Histórico de 64 revisões. Análise, 37 testes Flutter e três integrações Windows aprovados. Sons, modo silencioso/Não Perturbe e experiência em Android físico ainda precisam de validação.",
+      "tag": "chain-v1.3.1",
+      "prefix": "Chain-1.3.1",
       "windows": true,
       "downloads": [
         [
@@ -125,7 +125,7 @@
         [
           "Android ARM64 · recomendado",
           "arm64-v8a.apk",
-          "30,8 MiB"
+          "30,7 MiB"
         ],
         [
           "Android ARM32",
@@ -144,7 +144,8 @@
         "windows",
         "android"
       ],
-      "releaseNotes": "Apelidos para aparelhos, comparação e resolução de conflitos, transições suaves e paleta sonora opcional com volume e prévias."
+      "releaseNotes": "Movimento refinado: indicador deslizante, menus em fade e roda com desaceleração curta. Redução de movimento e dados preservados; sem alteração de rede, conflitos ou sons.",
+      "imageAlt": "Chain 1.3.1 em ensaio com coleções e links sintéticos no Windows."
     },
     "noon": {
       "name": "Noon",
@@ -194,42 +195,44 @@
     },
     "pile": {
       "name": "Pile",
-      "version": "0.1.1",
+      "version": "0.3.0",
       "category": "GERENCIADOR DE ARQUIVOS",
-      "description": "Seus arquivos à vista. Navegue por pastas, encontre etiquetas como Cute e alterne entre lista e galeria. Imagens e vídeos com prévias locais, em uma interface mais clara.",
-      "image": "assets/pile-interface-0.1.1.png",
+      "description": "Encontre por etiquetas. Organize em coleções gerais. Navegue por arquivos e veja imagens e vídeos com prévias locais, em lista ou galeria.",
+      "image": "assets/pile-interface-0.3.0.png",
       "features": [
-        "Galeria e lista com seleção compartilhada. Busca por nomes, caminhos e etiquetas; filtros por tipo e ordenação.",
-        "Imagens com zoom, miniaturas locais e reprodução de vídeos conforme os codecs do sistema. Interface compacta e ícones leves.",
-        "Crie pastas, mova e renomeie arquivos com prévia e desfazer. Coleções com etiquetas, cores e capas; organização por categorias e revisão de duplicados sem apagar automaticamente.",
-        "Figurinhas estáticas Android: preparar e revisar 3–30 imagens e abrir a confirmação oficial no WhatsApp/Business. Validação em aparelho real ainda pendente; Windows apenas revisa imagens.",
-        "IA opcional e secundária, com autorização por lote. Avisos de atualização no aplicativo e instalador Windows por usuário."
+        "Todas as etiquetas em faixa rolável; coleções gerais separadas dos detalhes e busca por nomes, caminhos, etiquetas e nomes anteriores.",
+        "Windows: abre na pasta do usuário, navega por unidades e endereços acessíveis à conta, renomeia em lote, copia/recorta/cola e usa a Lixeira do sistema.",
+        "Ícones compactos, menu em fade, indicador deslizante e rolagem com desaceleração curta; redução de movimento respeitada.",
+        "Regras por tipo, idade na pasta, tamanho, dimensões, nome/caminho e origem informada. Prévia e desfazer; organização por categorias preserva subpastas.",
+        "Limpeza distingue duplicados SHA-256 de parecidos visuais. Separação para revisão sem apagar automaticamente.",
+        "Android: copiar/recortar arquivos na árvore autorizada e restaurar pela Lixeira Pile. Figurinhas estáticas com confirmação oficial; aparelho físico ainda pendente.",
+        "IA somente pela skill/ponte Codex no Windows: prévias autorizadas, propostas de nomes/etiquetas/coleções e revisão antes de aplicar. Sem envio automático."
       ],
-      "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador e abra pelo menu Iniciar; feche a versão anterior antes de atualizar. Quem usava ZIP faz esta primeira instalação manual. No Android, instale o APK por cima para manter os dados e escolha uma subpasta local pelo seletor do sistema.",
-      "note": "32 testes e duas integrações Windows aprovados com arquivos sintéticos. Android físico, permissões SAF e adição real das figurinhas ao WhatsApp/Business ainda precisam de validação. Pacotes são estáticos, sem recorte automático do fundo; animações e vídeos não entram neste fluxo. Codecs dependem do sistema. Ainda não há copiar, lixeira ou gestão completa de pastas. Etiquetas ficam no índice local e não acompanham movimentos externos; mantenha backups. A consulta Update usa metadados públicos e não envia arquivos. IA exige chave própria e autorização por lote; pixels ainda podem conter dados pessoais. Instalador Windows sem certificado de editor e APKs com assinatura de desenvolvimento preservada.",
-      "tag": "pile-v0.1.1",
-      "prefix": "Pile-0.1.1",
+      "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. Windows: feche a versão anterior e instale no mesmo local; abra pelo menu Iniciar. Android: instale por cima, sem desinstalar, e autorize uma árvore de pastas pelo seletor do sistema.",
+      "note": "58 testes Flutter e integração Windows com arquivos sintéticos aprovados. Android físico/SAF e adição real ao WhatsApp/Business ainda precisam de validação. Lixeira Pile no Android mantém arquivos em subpasta e continua ocupando espaço; copiar pastas e mover entre árvores não estão implementados. Windows usa a Lixeira do sistema. Etiquetas ficam no índice local; backup anterior à migração de coleções é preservado até Esquecer índice. Prévia/codec depende do sistema. A ponte Codex não faz upload nem login automático; pixels podem conter dados pessoais e identidades sugeridas precisam de revisão. Setup sem certificado de editor; APKs com assinatura de desenvolvimento original.",
+      "tag": "pile-v0.3.0",
+      "prefix": "Pile-0.3.0",
       "windows": true,
       "downloads": [
         [
           "Windows x64 · Instalador",
           "Windows-x64-Setup.exe",
-          "11,7 MiB"
+          "11,8 MiB"
         ],
         [
           "Android ARM64 · recomendado",
           "arm64-v8a.apk",
-          "20,6 MiB"
+          "20,8 MiB"
         ],
         [
           "Android ARM32",
           "armeabi-v7a.apk",
-          "18,4 MiB"
+          "18,6 MiB"
         ],
         [
           "Android x64",
           "x86_64.apk",
-          "22,0 MiB"
+          "22,2 MiB"
         ]
       ],
       "featured": true,
@@ -238,7 +241,8 @@
         "windows",
         "android"
       ],
-      "releaseNotes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
+      "releaseNotes": "Etiquetas roláveis, coleções gerais, menus em fade, navegação deslizante, regras ampliadas e limpeza revisada. Gestão Windows e cópia/Lixeira Pile Android; IA apenas pela ponte Codex. SAF e WhatsApp em aparelho físico ainda pendentes.",
+      "imageAlt": "Pile 0.3.0 no Windows: coleções gerais com capas compactas e 52 etiquetas preservadas, em ensaio com arquivos sintéticos."
     },
     "chain-extension": {
       "name": "Chain Companion",

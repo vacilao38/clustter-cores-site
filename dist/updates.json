@@ -28,14 +28,14 @@
     },
     "chain": {
       "windows": {
-        "version": "1.3.0",
+        "version": "1.3.1",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Apelidos para aparelhos, comparação e resolução de conflitos, transições suaves e paleta sonora opcional com volume e prévias."
+        "notes": "Movimento refinado: indicador deslizante, menus em fade e roda com desaceleração curta. Redução de movimento e dados preservados; sem alteração de rede, conflitos ou sons."
       },
       "android": {
-        "version": "1.3.0",
+        "version": "1.3.1",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Apelidos para aparelhos, comparação e resolução de conflitos, transições suaves e paleta sonora opcional com volume e prévias."
+        "notes": "Movimento refinado: indicador deslizante, menus em fade e roda com desaceleração curta. Redução de movimento e dados preservados; sem alteração de rede, conflitos ou sons."
       }
     },
     "noon": {
@@ -52,14 +52,14 @@
     },
     "pile": {
       "windows": {
-        "version": "0.1.1",
+        "version": "0.3.0",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#pile",
-        "notes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
+        "notes": "Etiquetas roláveis, coleções gerais, menus em fade, navegação deslizante, regras ampliadas e limpeza revisada. Gestão Windows e cópia/Lixeira Pile Android; IA apenas pela ponte Codex. SAF e WhatsApp em aparelho físico ainda pendentes."
       },
       "android": {
-        "version": "0.1.1",
+        "version": "0.3.0",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#pile",
-        "notes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
+        "notes": "Etiquetas roláveis, coleções gerais, menus em fade, navegação deslizante, regras ampliadas e limpeza revisada. Gestão Windows e cópia/Lixeira Pile Android; IA apenas pela ponte Codex. SAF e WhatsApp em aparelho físico ainda pendentes."
       }
     },
     "chain-extension": {
