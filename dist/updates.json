@@ -61,6 +61,13 @@
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#pile",
         "notes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
       }
+    },
+    "chain-extension": {
+      "browser": {
+        "version": "1.0.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain-extension",
+        "notes": "Primeira versão: captura pela ação/menu contextual e ponte local com confirmação no Chain. Instalação manual; requer Chain 1.2.0+."
+      }
     }
   }
 }

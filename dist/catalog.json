@@ -104,10 +104,12 @@
         "Coleções com capas pessoais ou abstratas, categorias, notas, etiquetas, favoritos e busca.",
         "Importação e exportação .chain com as capas incluídas para guardar backups.",
         "Pareamento único, aparelhos lembrados e ações Enviar alterações / Puxar mais recentes por P2P criptografado.",
-        "Copiar link com um toque; WebRTC prioriza P2P direto entre redes e oferece fallback TURN configurável por aparelho."
+        "Copiar link com um toque; WebRTC prioriza P2P direto entre redes e oferece fallback TURN configurável por aparelho.",
+        "Regras de cópia: prefixo/sufixo padrão ou por hashtag, prévia e atalho para copiar apenas o endereço.",
+        "Captura rápida Android pelo Compartilhar; Chain Companion no Chrome/Edge Windows abre a mesma revisão de coleção, título, trilha e etiquetas."
       ],
       "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador .exe. Mantenha o Chain aberto nos dois aparelhos. Na mesma rede, TCP local funciona sem internet; entre redes, configure a credencial TURN em Conexões.",
-      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas.",
+      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain.",
       "tag": "chain-v1.1.1",
       "prefix": "Chain-1.1.1",
       "windows": true,
@@ -234,6 +236,39 @@
         "android"
       ],
       "releaseNotes": "Nova galeria/lista, busca por etiquetas, prévias de mídia, interface compacta e fluxo de figurinhas estáticas Android. Inclui Update e instalador Windows. Confirmação WhatsApp em aparelho real pendente."
+    },
+    "chain-extension": {
+      "name": "Chain Companion",
+      "downloadName": "Chain-Companion",
+      "version": "1.0.0",
+      "category": "EXTENSÃO PARA NAVEGADOR",
+      "description": "Da página à sua coleção. Envie um link do Chrome ou Edge para uma janela rápida do Chain e escolha coleção, título, trilha e etiquetas antes de guardar.",
+      "image": "assets/chain-capture-1.2.png",
+      "imageAlt": "Janela real de captura rápida do Chain, destino da extensão Companion. Dados sintéticos.",
+      "features": [
+        "Página atual pelo ícone ou link/página pelo menu de contexto, com título e endereço editáveis.",
+        "A ponte local abre a janela de revisão do Chain; nada é salvo sem sua confirmação.",
+        "Sem leitura contínua das páginas, histórico ou cookies. Links e biblioteca não são enviados à rede pela extensão.",
+        "Update avisa na extensão quando houver nova versão publicada e abre a Clustter para download."
+      ],
+      "requirements": "Chrome ou Microsoft Edge no Windows 10/11 x64, com Chain 1.2.0 ou superior instalado pelo Setup. Extraia o ZIP em pasta permanente; em chrome://extensions ou edge://extensions, ative modo de desenvolvedor, use Carregar sem compactação e selecione a pasta com manifest.json.",
+      "note": "Distribuição manual, sem publicação na Chrome Web Store ou Edge Add-ons. Navegadores móveis, Firefox e outros sistemas não foram incluídos. A ponte nativa e as validações automatizadas foram testadas no Windows; o fluxo completo após carregar a extensão nos navegadores ainda precisa de validação. A imagem mostra a janela real de destino, não uma captura da barra do navegador. Consulte LEIA-ME.md no ZIP. A consulta de atualizações usa somente metadados públicos; a hospedagem recebe os metadados HTTP normais.",
+      "tag": "chain-extension-v1.0.0",
+      "prefix": "Chain-Companion-1.0.0",
+      "downloads": [
+        [
+          "Chrome/Edge Windows · ZIP",
+          "Chrome-Edge.zip",
+          "ZIP pequeno"
+        ]
+      ],
+      "featured": true,
+      "headline": "Da página à coleção.",
+      "platforms": [
+        "browser"
+      ],
+      "releaseNotes": "Primeira versão: captura pela ação/menu contextual e ponte local com confirmação no Chain. Instalação manual; requer Chain 1.2.0+.",
+      "downloadHelp": "Instale primeiro o Chain atualizado. Extraia o ZIP e carregue a pasta sem compactação na página de extensões do Chrome/Edge. O ZIP inclui LEIA-ME.md com o passo a passo."
     }
   }
 }
