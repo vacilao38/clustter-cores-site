@@ -28,14 +28,14 @@
     },
     "chain": {
       "windows": {
-        "version": "1.2.1",
+        "version": "1.3.0",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Corrige o erro visual ao passar o mouse no X do aviso de atualização; tooltip e fechamento preservam a tela e o rascunho."
+        "notes": "Apelidos para aparelhos, comparação e resolução de conflitos, transições suaves e paleta sonora opcional com volume e prévias."
       },
       "android": {
-        "version": "1.2.1",
+        "version": "1.3.0",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Corrige o erro visual ao passar o mouse no X do aviso de atualização; tooltip e fechamento preservam a tela e o rascunho."
+        "notes": "Apelidos para aparelhos, comparação e resolução de conflitos, transições suaves e paleta sonora opcional com volume e prévias."
       }
     },
     "noon": {

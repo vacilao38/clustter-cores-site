@@ -42,3 +42,5 @@ Houve publicação concorrente de versões de outros apps por outra execução. 
 Catálogo atual também inclui Chain Companion 1.0.0 para Chrome/Edge Windows; Chain atualizado para 1.2.0. Extensão distribuída manualmente com requisito do novo Setup. Plataforma browser e filtro Navegador, feed em chain-extension/browser. `downloadName` permite preservar nomes seguros de arquivos sem alterar o nome exibido. Imagem real do destino de captura identificada no alt; validação completa em navegador/Android físico permanece pendente.
 
 Chain 1.2.1 publicado para corrigir o tooltip do X do Update; Companion e demais versões preservados.
+
+Chain 1.3.0: apelidos de aparelhos, comparação/resolução de conflitos, transições com redução de movimento e sons opcionais. Pacotes Windows/Android e feed atualizados; Companion 1.0.0 preservado.
