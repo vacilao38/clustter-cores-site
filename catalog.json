@@ -96,7 +96,7 @@
     },
     "chain": {
       "name": "Chain",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "category": "COLEÇÕES DE LINKS",
       "description": "Tudo o que inspira, em um lugar para conectar. Organize links em coleções com capas e leve suas ideias de um aparelho ao outro por conexão direta.",
       "image": "assets/chain-interface.png",
@@ -110,29 +110,29 @@
       ],
       "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador .exe. Mantenha o Chain aberto nos dois aparelhos. Na mesma rede, TCP local funciona sem internet; entre redes, configure a credencial TURN em Conexões.",
       "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain.",
-      "tag": "chain-v1.1.1",
-      "prefix": "Chain-1.1.1",
+      "tag": "chain-v1.2.0",
+      "prefix": "Chain-1.2.0",
       "windows": true,
       "downloads": [
         [
           "Windows x64 · Instalador .exe",
           "Windows-x64-Setup.exe",
-          "16,8 MiB"
+          "19,1 MiB"
         ],
         [
           "Android ARM64 · recomendado",
           "arm64-v8a.apk",
-          "30,5 MiB"
+          "30,6 MiB"
         ],
         [
           "Android ARM32",
           "armeabi-v7a.apk",
-          "22,8 MiB"
+          "22,9 MiB"
         ],
         [
           "Android x64",
           "x86_64.apk",
-          "35,5 MiB"
+          "35,6 MiB"
         ]
       ],
       "featured": true,
@@ -141,7 +141,7 @@
         "windows",
         "android"
       ],
-      "releaseNotes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+      "releaseNotes": "Cópia com prefixo/sufixo padrão ou por hashtag, campo de trilha e captura rápida. Android pelo Compartilhar; Windows pelo Companion. Confirme antes de guardar."
     },
     "noon": {
       "name": "Noon",
@@ -259,7 +259,7 @@
         [
           "Chrome/Edge Windows · ZIP",
           "Chrome-Edge.zip",
-          "ZIP pequeno"
+          "7,4 KiB"
         ]
       ],
       "featured": true,

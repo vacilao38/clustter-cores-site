@@ -1,6 +1,6 @@
 # Clustter cores
 
-Vitrine pública de ferramentas selecionadas. Catálogo atual: Folk 1.0.1, Lake 1.2.1, Chain 1.1.1, Noon 0.1.1 e Pile 0.1.1. Noon mantém código público; Chain voltou a privado por pedido de 24/10/2026. Folk, Lake e Pile mantêm repositórios privados; Pile por pedido explícito de 24/10/2026 (risco de LGPD). Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
+Vitrine pública de ferramentas selecionadas. Catálogo atual: Folk 1.0.1, Lake 1.2.1, Chain 1.2.0, Noon 0.1.1, Pile 0.1.1 e Chain Companion 1.0.0. Noon mantém código público; Chain voltou a privado por pedido de 24/10/2026. Folk, Lake e Pile mantêm repositórios privados; Pile por pedido explícito de 24/10/2026 (risco de LGPD). Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
 
 Site estático em `dist/`, sem dependências de build. Layout responsivo, apresentações CSS originais de voz e animação, filtros por plataforma e apresentações de produto com downloads. As animações são demonstrações visuais, não vídeos capturados dos aplicativos. Capturas de interface reais acompanham as descrições.
 
@@ -36,3 +36,7 @@ Nova autorização explícita do usuário: “suba no clustter e no repositório
 Pages confirmou built em `99cff4766a63996c11c35eddd434b4852c09571a`. Feed anuncia Pile 0.1.1 em Windows/Android. Página real conferida no navegador: versão, galeria sintética atual, instalador/APKs e limites da integração WhatsApp. Prova em `outputs/pile-evolution-2026-10-24/pile-0.1.1-publicado.png`. O código do Pile permanece privado; não foi executado sync global. Android físico/SAF e adição real ao WhatsApp/Business continuam pendentes e divulgados publicamente.
 
 Houve publicação concorrente de versões de outros apps por outra execução. Seus pacotes públicos foram preservados; esta execução preparou e enviou somente pacotes do Pile. O catálogo público e a fonte foram conferidos iguais ao final. Uma release de rascunho homônima de Pile criada por outra execução não foi publicada nem excluída por esta etapa; a release pública e os cinco links corretos foram verificados.
+
+## Companion · 24/10/2026
+
+Catálogo atual também inclui Chain Companion 1.0.0 para Chrome/Edge Windows; Chain atualizado para 1.2.0. Extensão distribuída manualmente com requisito do novo Setup. Plataforma browser e filtro Navegador, feed em chain-extension/browser. `downloadName` permite preservar nomes seguros de arquivos sem alterar o nome exibido. Imagem real do destino de captura identificada no alt; validação completa em navegador/Android físico permanece pendente.

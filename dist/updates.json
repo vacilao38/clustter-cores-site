@@ -28,14 +28,14 @@
     },
     "chain": {
       "windows": {
-        "version": "1.1.1",
+        "version": "1.2.0",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+        "notes": "Cópia com prefixo/sufixo padrão ou por hashtag, campo de trilha e captura rápida. Android pelo Compartilhar; Windows pelo Companion. Confirme antes de guardar."
       },
       "android": {
-        "version": "1.1.1",
+        "version": "1.2.0",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Update: aviso dentro do app, download pelo site e novo instalador Windows. Primeira atualização manual para versões antigas."
+        "notes": "Cópia com prefixo/sufixo padrão ou por hashtag, campo de trilha e captura rápida. Android pelo Compartilhar; Windows pelo Companion. Confirme antes de guardar."
       }
     },
     "noon": {
