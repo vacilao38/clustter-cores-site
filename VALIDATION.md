@@ -50,3 +50,9 @@ Houve publicação concorrente de versões de outros apps por outra execução. 
 ## Chain 1.2.0 e Companion 1.0.0 · 24/10/2026
 
 Sete arquivos públicos nos dois releases com digests/tamanhos conferidos e HTTP 200. Catálogo de seis itens, filtro Navegador e Update browser, preservando Folk/Lake/Noon/Pile. JS e gerador passaram; links usam downloadName para manter o nome de arquivo do Companion. Imagem mostra janela real de destino, com dados sintéticos de integração Windows. Não foi publicada captura de conversas. Compartilhamento Android e fluxo completo em browsers continuam com limites explícitos. Pages built no commit 0fef21846992bf70cd9c4b72098a107b7c2f3afa. Navegador: seis destaques com versões corretas, filtro Navegador retorna um produto e modal com ZIP/hash/instruções. Imagem carregada. Viewport efetivo 498 px, documento 498/498 e modal 454/454 sem overflow. Catálogo público igual à fonte; clientes reais Dart/JS leram as novas versões no feed. Comprovação em ../outputs/chain-1.2-publication/companion-publicado.png.
+
+## Chain 1.2.1 — aviso de atualização
+
+Setup x64, três APKs e SHA256SUMS publicados em chain-v1.2.1, com digests/tamanhos remotos conferidos e cinco URLs HTTP 200. Catálogo/feed atualizados após os pacotes, preservando os seis itens. Correção passou em regressão com árvore MaterialApp.builder, mouse no X, tooltip, fechamento, rota e rascunho; integração Windows também passou. Deploy 95355eb.
+
+Pages built confirmado em 95355eb3e4a254f0fdd98636c8a44c572603bf80. Catálogo público igual à fonte e feed Windows/Android do Chain em 1.2.1.

@@ -96,7 +96,7 @@
     },
     "chain": {
       "name": "Chain",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "category": "COLEÇÕES DE LINKS",
       "description": "Tudo o que inspira, em um lugar para conectar. Organize links em coleções com capas e leve suas ideias de um aparelho ao outro por conexão direta.",
       "image": "assets/chain-interface.png",
@@ -109,9 +109,9 @@
         "Captura rápida Android pelo Compartilhar; Chain Companion no Chrome/Edge Windows abre a mesma revisão de coleção, título, trilha e etiquetas."
       ],
       "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador .exe. Mantenha o Chain aberto nos dois aparelhos. Na mesma rede, TCP local funciona sem internet; entre redes, configure a credencial TURN em Conexões.",
-      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain.",
-      "tag": "chain-v1.2.0",
-      "prefix": "Chain-1.2.0",
+      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain. Correção 1.2.1: aviso de nova versão sem tela vazia ao passar o mouse no X.",
+      "tag": "chain-v1.2.1",
+      "prefix": "Chain-1.2.1",
       "windows": true,
       "downloads": [
         [
@@ -141,7 +141,7 @@
         "windows",
         "android"
       ],
-      "releaseNotes": "Cópia com prefixo/sufixo padrão ou por hashtag, campo de trilha e captura rápida. Android pelo Compartilhar; Windows pelo Companion. Confirme antes de guardar."
+      "releaseNotes": "Corrige o erro visual ao passar o mouse no X do aviso de atualização; tooltip e fechamento preservam a tela e o rascunho."
     },
     "noon": {
       "name": "Noon",
