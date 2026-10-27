@@ -96,7 +96,7 @@
     },
     "chain": {
       "name": "Chain",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "category": "COLEÇÕES DE LINKS",
       "description": "Tudo o que inspira, em um lugar para conectar. Organize links em coleções com capas e leve suas ideias de um aparelho ao outro por conexão direta.",
       "image": "assets/chain-interface-1.3.1.png",
@@ -112,9 +112,9 @@
         "Indicador de navegação deslizante, menus em fade integral e rolagem com desaceleração curta, sem barra persistente. Redução do sistema e preferência local respeitadas."
       ],
       "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, use o instalador .exe. Mantenha o Chain aberto nos dois aparelhos. Na mesma rede, TCP local funciona sem internet; entre redes, configure a credencial TURN em Conexões.",
-      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain. Versão 1.3: após resolver conflitos, use Enviar alterações. Atualize ambos os aparelhos; combinar reúne os links exclusivos e pode recuperar exclusões feitas apenas de um lado. Histórico de 64 revisões. Análise, 37 testes Flutter e três integrações Windows aprovados. Sons, modo silencioso/Não Perturbe e experiência em Android físico ainda precisam de validação.",
-      "tag": "chain-v1.3.1",
-      "prefix": "Chain-1.3.1",
+      "note": "Entre redes, usa PeerServer Cloud para negociar WebRTC e prioriza P2P direto. TURN retransmite pacotes criptografados quando necessário e exige uma credencial própria configurada em cada aparelho; nenhuma credencial acompanha o instalador. O Open Relay público padrão não respondeu aos testes desta rede. Conexão direta e TURN forçado validados no Windows; teste celular/PC nas redes reais e Android físico ainda pendentes. Depende de disponibilidade, franquia e políticas da rede. Edições divergentes viram cópias de conflito; exclusões não se propagam. Biblioteca e exportações locais não são criptografadas. Inclui Update; primeira atualização manual para versões antigas. Regras ficam neste aparelho. O compartilhamento pelo Android foi implementado e compilado, mas precisa de validação em aparelho físico. No Windows, a extensão é carregada manualmente e depende do novo instalador do Chain. Versão 1.3: após resolver conflitos, use Enviar alterações. Atualize ambos os aparelhos; combinar reúne os links exclusivos e pode recuperar exclusões feitas apenas de um lado. Histórico de 64 revisões. Análise, 37 testes Flutter e três integrações Windows aprovados. Sons, modo silencioso/Não Perturbe e experiência em Android físico ainda precisam de validação. Correção 1.3.2: melhora a conexão WebSocket, o descarte de tentativas atrasadas e as mensagens de erro. Fallback TCP depende de rota acessível; não elimina restrições de rede. Android físico continua pendente.",
+      "tag": "chain-v1.3.2",
+      "prefix": "Chain-1.3.2",
       "windows": true,
       "downloads": [
         [
@@ -144,7 +144,7 @@
         "windows",
         "android"
       ],
-      "releaseNotes": "Movimento refinado: indicador deslizante, menus em fade e roda com desaceleração curta. Redução de movimento e dados preservados; sem alteração de rede, conflitos ou sons.",
+      "releaseNotes": "Corrige descarte de WebSocket atrasado, prazos de sinalização e reconexão; permite fallback TCP autenticado quando há rota disponível.",
       "imageAlt": "Chain 1.3.1 em ensaio com coleções e links sintéticos no Windows."
     },
     "noon": {

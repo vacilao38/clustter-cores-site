@@ -28,14 +28,14 @@
     },
     "chain": {
       "windows": {
-        "version": "1.3.1",
+        "version": "1.3.2",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Movimento refinado: indicador deslizante, menus em fade e roda com desaceleração curta. Redução de movimento e dados preservados; sem alteração de rede, conflitos ou sons."
+        "notes": "Corrige descarte de WebSocket atrasado, prazos de sinalização e reconexão; permite fallback TCP autenticado quando há rota disponível."
       },
       "android": {
-        "version": "1.3.1",
+        "version": "1.3.2",
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
-        "notes": "Movimento refinado: indicador deslizante, menus em fade e roda com desaceleração curta. Redução de movimento e dados preservados; sem alteração de rede, conflitos ou sons."
+        "notes": "Corrige descarte de WebSocket atrasado, prazos de sinalização e reconexão; permite fallback TCP autenticado quando há rota disponível."
       }
     },
     "noon": {
