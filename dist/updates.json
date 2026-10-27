@@ -68,6 +68,18 @@
         "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain-extension",
         "notes": "Primeira versão: captura pela ação/menu contextual e ponte local com confirmação no Chain. Instalação manual; requer Chain 1.2.0+."
       }
+    },
+    "bridge": {
+      "windows": {
+        "version": "0.1.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#bridge",
+        "notes": "Primeira versão: teclado e mouse Windows no Android por TCP local criptografado, convite descartável, acessibilidade/IME, saída de emergência e Update. Ensaio em Android físico ainda pendente."
+      },
+      "android": {
+        "version": "0.1.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#bridge",
+        "notes": "Primeira versão: teclado e mouse Windows no Android por TCP local criptografado, convite descartável, acessibilidade/IME, saída de emergência e Update. Ensaio em Android físico ainda pendente."
+      }
     }
   }
 }

@@ -1,5 +1,7 @@
 # Clustter cores
 
+Bridge 0.1.0 foi autorizado explicitamente em 27/10/2026 e incluído no catálogo: teclado e mouse Windows → Android na mesma rede, com convite temporário e criptografia. Fonte privada em `vacilao38/bridge`; distribuições em `bridge-v0.1.0`. A apresentação informa que gestos, IME e segundo plano precisam de ensaio em Android físico. Produtos anteriores preservados.
+
 Vitrine pública de ferramentas selecionadas. Catálogo atual: Folk 1.0.1, Lake 1.2.1, Chain 1.3.1, Noon 0.1.1, Pile 0.3.0 e Chain Companion 1.0.0. Noon mantém código público; Chain voltou a privado por pedido de 24/10/2026. Folk, Lake e Pile mantêm repositórios privados; Pile por pedido explícito de 24/10/2026 (risco de LGPD). Visibilidades e continuidade em ../clustter-main/projects.json. Publicar código não autoriza novos produtos ou downloads na vitrine.
 
 Site estático em `dist/`, sem dependências de build. Layout responsivo, apresentações CSS originais de voz e animação, filtros por plataforma e apresentações de produto com downloads. As animações são demonstrações visuais, não vídeos capturados dos aplicativos. Capturas de interface reais acompanham as descrições.

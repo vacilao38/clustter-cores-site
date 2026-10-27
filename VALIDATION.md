@@ -56,3 +56,7 @@ Sete arquivos públicos nos dois releases com digests/tamanhos conferidos e HTTP
 Setup x64, três APKs e SHA256SUMS publicados em chain-v1.2.1, com digests/tamanhos remotos conferidos e cinco URLs HTTP 200. Catálogo/feed atualizados após os pacotes, preservando os seis itens. Correção passou em regressão com árvore MaterialApp.builder, mouse no X, tooltip, fechamento, rota e rascunho; integração Windows também passou. Deploy 95355eb.
 
 Pages built confirmado em 95355eb3e4a254f0fdd98636c8a44c572603bf80. Catálogo público igual à fonte e feed Windows/Android do Chain em 1.2.1.
+
+## Bridge 0.1.0 · 27/10/2026
+
+Publicação explícita autorizada. Setup, três APKs e SHA256SUMS com digests/tamanhos iguais aos locais e cinco URLs HTTP 200. Pages built em 6b25ffeb0733354272c88e7d2b4302bd5f7b4826. Catálogo público igual à fonte; sete produtos, seis anteriores preservados integralmente. Feed Windows/Android em 0.1.0. Gerador e sintaxe JS aprovados; imagem real do app sem dados pessoais. Modal público conferido no navegador estreito: título/versão/requisitos/imagem/quatro downloads e limites Android. Prova local ../outputs/bridge-publication/bridge-publicado.png. Android físico ainda pendente conforme o catálogo/release. Código Bridge permanece privado.

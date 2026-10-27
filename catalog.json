@@ -276,6 +276,56 @@
       ],
       "releaseNotes": "Primeira versão: captura pela ação/menu contextual e ponte local com confirmação no Chain. Instalação manual; requer Chain 1.2.0+.",
       "downloadHelp": "Instale primeiro o Chain atualizado. Extraia o ZIP e carregue a pasta sem compactação na página de extensões do Chrome/Edge. O ZIP inclui LEIA-ME.md com o passo a passo."
+    },
+    "bridge": {
+      "name": "Bridge",
+      "version": "0.1.0",
+      "category": "TECLADO & MOUSE COMPARTILHADOS",
+      "description": "Seu teclado e mouse atravessam a ponte. Controle um celular ou tablet Android pelo computador Windows, por conexão direta na sua rede.",
+      "image": "assets/bridge-interface-0.1.0.jpg",
+      "imageAlt": "Interface real do Bridge 0.1.0 no Windows, antes do pareamento e sem dados pessoais.",
+      "features": [
+        "Teclado e mouse do Windows no Android na mesma rede IPv4, Wi-Fi ou hotspot, sem conta ou servidor de controle.",
+        "Ponteiro na tela do Android; clique para tocar, roda para rolar, clique direito para voltar e arraste executado ao soltar (até dois segundos).",
+        "Texto Unicode e teclas comuns no campo em foco pelo Teclado Bridge; botões Voltar, Início e Recentes no Windows.",
+        "Convite temporário e descartável, sessão criptografada com AES-256-GCM e encerramento por Ctrl+Alt+Esc ou pela notificação Android.",
+        "Temas claro/escuro, redução de movimento e Update com aviso de versão no próprio app."
+      ],
+      "requirements": "Windows 10/11 x64 e celular/tablet Android 7+. Instale nas duas plataformas. Mesma rede IPv4 com comunicação entre clientes. Ative manualmente acessibilidade e Teclado Bridge, selecione o teclado e deixe o Android desbloqueado.",
+      "note": "Primeira versão. Análise, 10 testes e integração Windows com TCP/entrada sintética aprovados. APKs compilados e conferidos; gestos, IME, rotação, bloqueio, bateria e segundo plano ainda precisam de ensaio em Android físico e redes reais. Não inclui internet, USB, Bluetooth, espelhamento de tela, controle Android→Windows ou mouse HID para jogos. O arraste é reproduzido ao soltar, com até dois segundos. Apps protegidos e políticas do sistema podem limitar o controle. O convite concede acesso: compartilhe somente com seu PC. Código privado. Setup sem certificado de editor Windows; APKs com assinatura de desenvolvimento original da Clustter.",
+      "tag": "bridge-v0.1.0",
+      "prefix": "Bridge-0.1.0",
+      "windows": true,
+      "featured": false,
+      "headline": "Uma ponte para o controle.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "downloads": [
+        [
+          "Windows x64 · Instalador .exe",
+          "Windows-x64-Setup.exe",
+          "9,9 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "16,9 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "14,4 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "18,2 MiB"
+        ]
+      ],
+      "releaseNotes": "Primeira versão: teclado e mouse Windows no Android por TCP local criptografado, convite descartável, acessibilidade/IME, saída de emergência e Update. Ensaio em Android físico ainda pendente.",
+      "downloadHelp": "Instale o Setup no computador e o APK no Android. No Android, ative acessibilidade e Teclado Bridge, selecione o teclado e gere o convite. Cole no Windows, conecte e clique em Controlar. Ctrl+Alt+Esc volta ao PC."
     }
   }
 }
